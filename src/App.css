@@ -97,6 +97,15 @@ body {
     outline: none;
 }
 
+.todos__single--test {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+}
+
 .icon {
     margin-left: 10px;
     font-size: 25px;
