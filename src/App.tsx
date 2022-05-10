@@ -53,8 +53,14 @@ const App:React.FC = ()=>{
       <span className='heading'>Taskify</span>
       <InputField todo={todo} settodo={settodo} handleAdd={handleAdd}/>
       <TodoList todos={todos} settodos={settodos} completedTodos={completedTodos} setcompletedTodos={setcompletedTodos}/>
+    <div className="footer">
+      <span>made with 🎀</span>
+      <p>the coolest feature is the drag and drop of tasks</p>
     </div>
+    </div>
+    
     </DragDropContext>
+    
   );
 }
 
