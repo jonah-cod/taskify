@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+You can view a live version of the app at https://jonah-cod.github.io/taskify/
+
 ## Available Scripts
 
 In the project directory, you can run:
