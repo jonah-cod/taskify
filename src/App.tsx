@@ -30,10 +30,12 @@ const App:React.FC = ()=>{
           complete=completedTodos;
     if(source.droppableId === 'active'){
       add = active[source.index]
+      add.isDone = true
       active.splice(source.index, 1)
     }else{
       add = complete[source.index]
       complete.splice(source.index, 1)
+      add.isDone = false
     }
 
     if(destination.droppableId === 'active'){
